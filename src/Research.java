@@ -1,5 +1,5 @@
 import java.util.List;
-
+/*
 public class Research {
     public static void printAllChildren(String name, Tree tree) {
         List<Link> links = tree.getLinks();
@@ -22,3 +22,5 @@ public class Research {
     }
 
 }
+
+ */

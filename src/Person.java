@@ -1,25 +1,16 @@
-public class Person {
-    private String name;
-    private String surname;
-
-    public Person(String name, String surname) {
+public abstract class Person implements Action{
+    protected String name;
+    protected Integer age;
+    protected Commands commands;
+    public Person(String name, Integer age) {
         this.name = name;
-        this.surname = surname;
+        this.age = age;
     }
 
-    @Override
-    public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
-                '}';
-    }
 
-    public String getName() {
-        return name;
-    }
+    public abstract void call(Animal animal, Commands commands);
+    public abstract void say(Person person, Commands commands);
 
-    public String getSurname() {
-        return surname;
-    }
+
+
 }
