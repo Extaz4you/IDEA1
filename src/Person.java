@@ -1,10 +1,12 @@
 public abstract class Person implements Action{
     protected String name;
     protected Integer age;
+
     protected Commands commands;
     public Person(String name, Integer age) {
         this.name = name;
         this.age = age;
+
     }
 
 

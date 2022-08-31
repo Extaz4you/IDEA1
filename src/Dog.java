@@ -3,7 +3,6 @@ public class Dog extends Animal {
     @Override
     public void come() {
         System.out.println("  Dog come to man");
-
     }
 
     @Override
