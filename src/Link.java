@@ -9,18 +9,6 @@ public class Link {
         this.link = link;
     }
 
-    public Person getPersonFirst() {
-        return personFirst;
-    }
-
-    public Person getPersonSecond() {
-        return personSecond;
-    }
-
-    public Relation getLink() {
-        return link;
-    }
-
     @Override
     public String toString() {
         return "Link{" +
